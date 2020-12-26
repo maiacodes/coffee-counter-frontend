@@ -89,15 +89,6 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
 button {
   display: inline-block;
   border-radius: 4px;
@@ -116,7 +107,7 @@ button {
 }
 .small {
   padding: 10px;
-  width: 80px;
+  width: 100px;
   font-size: 20px;
 }
 .loginBox {
@@ -124,5 +115,28 @@ button {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: white;
+    color: #2c3e50;
+  }
 }
 </style>
