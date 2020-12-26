@@ -3,7 +3,7 @@
     <div v-if="loaded">
       <button class="big" v-on:click="register(); count+=1">Add!</button>
       <p>You have had {{ count }} coffees!</p>
-      <sub>Coffee Counter by Maia | <a v-on:click="alert(`Account token: ${token}`)">{{ uid }}</a> | <a v-on:click="logout()" href="#">Logout</a></sub>
+      <sub>Coffee Counter by Maia | <a v-on:click="alert(`Account token: ${token}`)">{{ uid }}</a> | <a v-on:click="logout()">Logout</a></sub>
     </div>
     <div v-if="!loaded">
       <p>Loading...</p>
