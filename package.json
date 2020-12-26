@@ -34,7 +34,7 @@
     },
     "pwa": {
       "name": "Coffee Counter",
-      "themeColor": "#f5511e",
+      "themeColor": "#f4511e",
       "msTileColor": "#000000",
       "appleMobileWebAppCapable": "yes",
       "appleMobileWebAppStatusBarStyle": "default"
